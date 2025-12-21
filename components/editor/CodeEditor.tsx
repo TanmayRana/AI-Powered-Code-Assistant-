@@ -55,7 +55,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({
       lineNumbers: "on",
       renderWhitespace: "selection",
       cursorBlinking: "smooth",
-      cursorSmoothCaretAnimation: true,
+      cursorSmoothCaretAnimation: "on",
     });
 
     // Add keyboard shortcuts
@@ -296,7 +296,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({
             lineNumbers: "on",
             renderWhitespace: "selection",
             cursorBlinking: "smooth",
-            cursorSmoothCaretAnimation: true,
+            cursorSmoothCaretAnimation: "on",
             suggestOnTriggerCharacters: true,
             acceptSuggestionOnEnter: "on",
             tabCompletion: "on",
