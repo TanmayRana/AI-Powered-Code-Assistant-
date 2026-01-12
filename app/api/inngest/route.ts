@@ -18,6 +18,6 @@ export const { GET, POST, PUT } = serve({
     GenerateStudyTypeContent,
     aiAgentFunction,
     aiCodeAssistantFunction,
-    aiLessonAgentFunction,
+    // aiLessonAgentFunction,
   ],
 });
